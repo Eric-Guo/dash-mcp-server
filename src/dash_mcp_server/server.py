@@ -297,6 +297,12 @@ async def search_documentation(
             await ctx.warning(warning_message)
         
         results = result.get("results", [])
+        # Filter out empty dict entries (Dash API returns [{}] for no results)
+        results = [r for r in results if r]
+
+        if not results and ' ' in query:
+            return SearchResults(results=[], error="Nothing found. Try to search for fewer terms.")
+
         await ctx.info(f"Found {len(results)} results")
         
         # Build result list with token limit checking
