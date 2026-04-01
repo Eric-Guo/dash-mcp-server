@@ -1,0 +1,13 @@
+{
+    "name": "dash-mcp-server",
+    "version": "1.1.1",
+    "description": "MCP server for Dash, the macOS API documentation browser. Search 200+ docsets.",
+    "author": {
+        "name": "Kapeli",
+        "url": "https://github.com/Kapeli"
+    },
+    "homepage": "https://kapeli.com/dash",
+    "repository": "https://github.com/Kapeli/dash-mcp-server",
+    "license": "MIT",
+    "keywords": ["dash", "documentation", "api", "macos", "docsets", "search", "mcp"]
+}

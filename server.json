@@ -6,12 +6,12 @@
     "url": "https://github.com/Kapeli/dash-mcp-server",
     "source": "github"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "dash-mcp-server",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "transport": {
         "type": "stdio"
       }
